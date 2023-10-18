@@ -1,0 +1,28 @@
+{
+  "name": "rosparkjs",
+  "version": "1.0.0",
+  "description": "A parking lot monitoring system based on Horizon X3 Car Robot. This is the frontend built on roslibjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/4fterlook/RosParkJs.git"
+  },
+  "keywords": [
+    "roslibjs"
+  ],
+  "author": "guzhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4fterlook/RosParkJs/issues"
+  },
+  "homepage": "https://github.com/4fterlook/RosParkJs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ros3d": "^1.1.0",
+    "roslib": "^1.3.0"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>巡逻机器人控制界面</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <!-- 页面内容 -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <div class="container text-center">
+    <div class="container text-center">
+      <h1 class="my-4">停车场状态</h1>
+      <button class="btn btn-primary my-2" id="startPatrol">巡逻，启动！</button>
+      <button class="btn btn-danger my-2" id="stopPatrol">巡逻，停止！</button>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>车牌号码</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- 表格内容将在JavaScript中动态添加 -->
+          </tbody>
+        </table>
+      </div>
+      <button class="btn btn-success my-2" id="navigate">导航到这里</button>
+    </div>
+  </div>
+</body>
+
+</html>
